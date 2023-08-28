@@ -9,26 +9,34 @@
   .navigation ul {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(126, 115, 115);
+    background-color: white;
     list-style: none;
     padding: 1rem;
   }
+ 
+  
   label{
     font-size: large;
     align-content:center;
   }
   .profile {
-    align-self: flex-end;
+    
+    justify-content: space-around;
   }
   
   .navigation li {
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: inline-flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  header{
+    padding: 0;
+    margin: 0%;
   }
   
   /* Main container styling */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
@@ -39,11 +47,12 @@
   
   /* Introduction section */
   .intro {
-    padding: 1rem;
+    padding: 0rem;
     text-align: left;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     align-items: center;
+    background-color: white;
   }
   
   .intro h1, .intro h5 {
@@ -96,61 +105,107 @@
     text-align: left;
     background-color: white;
     padding: 1rem;
+    flex-wrap: wrap;
   }
   .experience{
-    align-items: right;
+    align-content: center;
     display: flex;
-    
-    justify-content:space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
   }
-  .experience label{
+ 
+  .experience label,.experience img{
     align-self: center;
   }
-  .skills button{
-    padding: 1%;
-   font-size: large;
-   background-color:rgb(247, 234, 210);
-   border: none;
-   border-radius: 5px;
-   cursor:pointer;
-   align-self: first baseline; 
-   
+  .button-container {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 10px; 
   }
-  .services{
+  
+   
+  
+  .Services{
     text-align: center;
     padding: 1rem;
-  display:table-column;
+    display: box;
+    background-color: white;
+    justify-content: space-around; 
 
   }
-  .services hr{
-    color: #6233ad;
+  .Service div {
+    display: flex;
+    flex-direction: column;
   }
+  .colored-hr {
+    border: none; 
+    border-top: 2px solid #6233ad;
+    margin: 20px 0; 
+  }
+  
+  
   
   /* Projects section */
   .projects {
-    padding: 1rem;
-    text-align: center;
-  }
+  padding: 1rem;
+  text-align: left;
+  background-color: #F3D25D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  margin: 0%;
+}
+.projects h3{
+  justify-content: space-around;
+}
+  .projects button.ux-buttons {
+  align-self: flex-start; 
+}
+/* .explo{
+  align-items: center;
+  display: block;
   
+} */
+.xbutton {
+  display: flex;
+    gap: 10px; 
+    margin-bottom: 10px;
+    display: inline-flex;
+  
+    
+}
   .gallery-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   
   .gallery img {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     margin: 0.5rem;
   }
   
   /* Footer styling */
   footer {
-    padding: 1rem;
+    background-color:black; /* Set your desired background color */
+    color: white;
+    padding: 20px;
     text-align: center;
-    background-color: aliceblue;
-    width: 100%;
   }
   
+  footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }  
+  .footerhr{
+    border: none; 
+    border-top: 10px solid #F3D25D;
+    margin: 20px 0;
+  }
   /* Links */
   a {
     color: #1877f2;
