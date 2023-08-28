@@ -1,0 +1,163 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation styling */
+  .navigation ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(126, 115, 115);
+    list-style: none;
+    padding: 1rem;
+  }
+  label{
+    font-size: large;
+    align-content:center;
+  }
+  .profile {
+    align-self: flex-end;
+  }
+  
+  .navigation li {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Main container styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Introduction section */
+  .intro {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .intro h1, .intro h5 {
+    margin: 0.5rem 0;
+  }
+  
+  .intro p {
+    font-size: large;
+  }
+
+  .cbutton {
+   padding: 1%;
+   font-size: large;
+   background-color:#6233ad;
+   border: none;
+   border-radius: 5px;
+   cursor:pointer;
+
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* About section */
+  .about {
+    padding: 1rem;
+    text-align: left;
+    background-color: #6233ad;
+    display: flex;
+    justify-content: space-around; 
+  }
+  .about h3{
+    color:white;
+  }
+  .about p{
+    color: white;
+  }
+  
+  /* Skills section */
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background-color: white;
+    padding: 1rem;
+  }
+  .experience{
+    align-items: right;
+    display: flex;
+    
+    justify-content:space-between;
+  }
+  .experience label{
+    align-self: center;
+  }
+  .skills button{
+    padding: 1%;
+   font-size: large;
+   background-color:rgb(247, 234, 210);
+   border: none;
+   border-radius: 5px;
+   cursor:pointer;
+   align-self: first baseline; 
+   
+  }
+  .services{
+    text-align: center;
+    padding: 1rem;
+  display:table-column;
+
+  }
+  .services hr{
+    color: #6233ad;
+  }
+  
+  /* Projects section */
+  .projects {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem;
+  }
+  
+  /* Footer styling */
+  footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+  }
+  
+  /* Links */
+  a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
