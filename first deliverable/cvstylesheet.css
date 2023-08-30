@@ -20,7 +20,7 @@
     background-color: white;
     color: black;
     padding: 2.5px 5px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -63,6 +63,7 @@
     justify-content: space-evenly; 
     align-items: center;
     background-color: white;
+    flex-wrap: wrap;
   }
   
   .intro h1, .intro h5 {
@@ -123,15 +124,16 @@
   .skill h3,p{
     margin: 0.5rem 0;
   }
-  .black button{
+  .cibutton {
     padding: 1%;
-   font-size: large;
-   background-color:black;
-   border: none;
-   border-radius: 5px;
-   cursor:pointer;
-    
-  }
+    font-size: large;
+    background-color:black;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    color: white;
+ 
+   }
   .expertise{
     display: flex;
     flex-wrap: wrap;
@@ -155,14 +157,25 @@
   .button-container {
     display: flex;
     gap: 10px; 
-    margin-bottom: 5px; 
+    /* margin-bottom: 5px;  */
     align-content: left;
+    padding: 0%;
   }
+  .button-container button{
+    background-color: white;
+    color: black;
+    padding: 2.5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 
  .img-container {
     display: flex;
     gap: 10px; 
-    margin-bottom: 10px; 
+    justify-content: center;
+    flex-direction: row;
   }  
   
   .Services{
@@ -171,6 +184,7 @@
     display: flexbox;
     background-color: white;
     justify-content: space-around; 
+    flex-wrap: wrap;
     
 
   }
@@ -226,8 +240,9 @@
 /* Style the explore button */
 .explo {
   display: flex;
-    justify-content: center;
+    justify-self: center;
     flex-direction: column;
+    size:50px;
 }
   .gallery-container {
     display: flex;
