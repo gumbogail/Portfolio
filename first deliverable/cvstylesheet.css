@@ -73,7 +73,10 @@
   .intro p {
     font-size: large;
   }
-
+.intro img{
+  border: none;
+  background-size: cover;
+}
   .cbutton {
    padding: 1%;
    font-size: large;
