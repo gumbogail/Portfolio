@@ -1,4 +1,5 @@
-/* Reset default margin and padding for all elements */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +47,7 @@
   
   /* Main container styling */
   body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
