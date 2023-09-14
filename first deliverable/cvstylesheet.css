@@ -149,9 +149,9 @@
   } */
   .experience{
     align-content: center;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     justify-content:space-around;
   }
  
@@ -180,6 +180,7 @@
     gap: 10px; 
     justify-content: center;
     flex-direction: row;
+    padding:10px;
   }  
   
   .Services{
@@ -207,19 +208,29 @@
   
   /* Projects section */
   .projects {
-  padding: 1rem;
+  padding: 50px;
   text-align: left;
   background-color: #F3D25D;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-around; 
+  justify-content: space-around;  */
   margin: 0%;
 }
 .projects h3{
   justify-content: space-around;
+  align-self: left;
+  align-content: center;
 }
-  .projects button.ux-buttons {
-  align-self: flex-start; 
+  .ux-buttons {
+  /* align-self: flex-start;  */
+  /* display:flex; */
+  /* flex-direction: row; */
+  margin: 0;
+  border: none;
+  color: #F3D25D;
+  padding: 10px;
+  justify-content: space-around;
+  background-color: #F3D25D;
 }
 /* .explo{
   align-items: center;
@@ -229,8 +240,7 @@
 .xbutton {
 
     text-align: right;
-    margin-bottom: 0px;
-
+    margin-bottom: 0px;;
     
 }
 /* .gallery {
